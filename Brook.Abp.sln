@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brook.Abp.Console", "Brook.Abp.Console\Brook.Abp.Console.csproj", "{11477090-EABC-49A8-959F-5DD0B42071E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brook.Abp.Web", "Brook.Abp.Web\Brook.Abp.Web.csproj", "{9A265B56-580B-42F3-BFF8-FD7BF9250951}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11477090-EABC-49A8-959F-5DD0B42071E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11477090-EABC-49A8-959F-5DD0B42071E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11477090-EABC-49A8-959F-5DD0B42071E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11477090-EABC-49A8-959F-5DD0B42071E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A265B56-580B-42F3-BFF8-FD7BF9250951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A265B56-580B-42F3-BFF8-FD7BF9250951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A265B56-580B-42F3-BFF8-FD7BF9250951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A265B56-580B-42F3-BFF8-FD7BF9250951}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D6635B1-8C44-4233-A270-58C69F591B21}
+	EndGlobalSection
+EndGlobal
