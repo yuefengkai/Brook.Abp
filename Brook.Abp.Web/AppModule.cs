@@ -12,9 +12,11 @@ using Volo.Abp.Modularity;
 namespace Brook.Abp.Web
 {
     [DependsOn(typeof(AbpAspNetCoreMvcModule))]
-    [DependsOn(typeof(AbpAutofacModule))] //Add dependency to ABP Autofac module
+    [DependsOn(typeof(AbpAutofacModule))] //在模块上添加AbpAutofacModule
     public class AppModule : AbpModule
     {
+        //see https://docs.abp.io/zh-Hans/abp/latest/Getting-Started-AspNetCore-Application
+
         public override void OnApplicationInitialization(ApplicationInitializationContext context)
         {
             var app = context.GetApplicationBuilder();

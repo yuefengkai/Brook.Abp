@@ -17,9 +17,14 @@ namespace Brook.Abp.Web
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApplication<AppModule>();
+            services.AddApplication<AppModule>(option =>
+            {
+                option.UseAutofac();
+            });
+
         }
 
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app)
         {
             app.InitializeApplication();
