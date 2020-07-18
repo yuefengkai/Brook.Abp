@@ -30,6 +30,7 @@ namespace Brook.Product
         {
             var task = await Task.Run(() =>
             {
+                Console.WriteLine("Helo ........");
                 Thread.Sleep(100);
                 return products.AsEnumerable();
             });
